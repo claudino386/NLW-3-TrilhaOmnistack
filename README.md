@@ -11,7 +11,7 @@
 ### :triangular_flag_on_post: Para Instalar a Pasta Node Modules:
 `npm install`
 ***
-### :checkered_flag:Para Iniciar o Projeto
-:warning: É Necessário ter o Node ou Yarn Instalados:
+### :checkered_flag:Para Iniciar o Projeto:
+:warning: É Necessário ter o Node ou Yarn Instalados
 - `npm start` ou `yarn start`
 ***
