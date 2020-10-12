@@ -1,16 +1,12 @@
 import React from 'react';
 
-function Title(){
-  return(
-    <h1>NLW 3</h1>
-  )
-}
+import Routes from './routes';
+
+import './styles/global.css';
 
 function App() {
   return (
-    <div className="App">
-      <Title/>
-    </div>
+    <Routes />
   );
 }
 
