@@ -2,7 +2,8 @@
 ***
 ![Ticket-NLW#3](https://github.com/miguelhp373/NLW-3-TrilhaOmnistack/blob/main/ticket-nlw%233.jpeg)
 ***
-:bookmark_tabs:[Clique Aqui Para Ver As Anotações da NLW#3](https://github.com/miguelhp373/NLW-3-TrilhaOmnistack/blob/main/Comandos.md)
+### :bookmark_tabs: Anotações
+[Clique Aqui Para Ver As Anotações da NLW#3](https://github.com/miguelhp373/NLW-3-TrilhaOmnistack/blob/main/Comandos.md)
 ***
 ### :beginner: Para Instalar o Projeto, Clone este Repositório 
 [Baixar Projeto](https://github.com/miguelhp373/NLW-3-TrilhaOmnistack/archive/main.zip)
