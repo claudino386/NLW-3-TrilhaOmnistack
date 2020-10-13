@@ -139,8 +139,8 @@ app.listen(3333); //local host 3333
 - ORM - relacionar objetos com tabelas,instancias da classe do banco de dados(Object Relational Mapping);
 ***
 ### Executando a Migration do Banco de Dados:
-`yarn typeorm migration:run` //executa a query
-`yarn typeorm migration:revert` //reverte a tabela
+- `yarn typeorm migration:run` //executa a query
+- `yarn typeorm migration:revert` //reverte a tabela
 ***
 
 
