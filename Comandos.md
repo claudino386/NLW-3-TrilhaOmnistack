@@ -90,6 +90,74 @@ function Routes(){
 export default Routes;
 ```
 
+***
+## Dia 02 - API Rest
+***
+`yarn init -y` serve para criar um arquivo .json do seu projeto.
+`yarn add express` instala o framework express.(Ele ajuda na requisição, e rotas).
+`npm install @types/express -D` Instala o Pacote de Dependencia do Express.
+`yarn add typescript -D` Instala o a Dependencia do Typescript no Projeto, para funcionar o com node js
+`yarn tsc --init` Cria um arquivo tsconfig.json.
+`yarn add ts-node-dev -D` instala um dependencia, para poder executar o projeto usando typescript.
+
+***
+### Rota com Express
+```
+import express from 'express';
+
+const app = express();
+
+//rota = conjunto
+//recurso = usuario
+//Métodos http = get,post,put,delete
+//parametros
+	 // Query params : http://localhost:3333/users/search?=diego&page2
+	 //Route params : http://localhost:3333/users/1 (indentificar um recurso)
+	//Body : http://localhost:3333/users (indentificar um recurso_)
+
+//get = buscar informação(lista,item);
+//post = criando informação nova;
+//put  = editando uma informação;
+//delete = deletando uma informação;
+
+app.get('/users',(request,response) =>{
+   return response.json({message: 'hello world' });
+});
+
+app.listen(3333); //local host 3333
+```
+***
+- Para testar os metodos http -> utilizaremos o insomnia;
+***
+### Banco de Dados
+`yarn add typeorm sqlite3` instala a extensão do banco de dados, e as dependencias;
+ __Driver Nativo,Query Builder,ORM__;
+
+- Driver nativo - `sqlite.query(SELECT * FROM users)`
+- Query Builder -> KNEX.js `knex('users').select('*').where('name','diego')`
+// o Knex.js converte para SELECT * FROM users WHERE('name','diego');
+- ORM - relacionar objetos com tabelas,instancias da classe do banco de dados(Object Relational Mapping);
+***
+### Executando a Migration do Banco de Dados:
+`yarn typeorm migration:run` //executa a query
+`yarn typeorm migration:revert` //reverte a tabela
+***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
