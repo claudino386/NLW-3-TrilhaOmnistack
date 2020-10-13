@@ -69,8 +69,8 @@
 ## Rotas
 - Exemplo de Rotas com React Router Dom(SPA - Single Page Aplication):
 ```
-import React from 'react'
-import { BrowserRouter, Switch, Route} from 'react-router-dom';
+ import React from 'react'
+ import { BrowserRouter, Switch, Route} from 'react-router-dom';
 
 import Landing from './pages/Landing'
 import OrphanagesMap from './pages/OrphanagesMap'
@@ -93,12 +93,12 @@ export default Routes;
 ***
 ## Dia 02 - API Rest
 ***
-`yarn init -y` serve para criar um arquivo .json do seu projeto.
-`yarn add express` instala o framework express.(Ele ajuda na requisição, e rotas).
-`npm install @types/express -D` Instala o Pacote de Dependencia do Express.
-`yarn add typescript -D` Instala o a Dependencia do Typescript no Projeto, para funcionar o com node js
-`yarn tsc --init` Cria um arquivo tsconfig.json.
-`yarn add ts-node-dev -D` instala um dependencia, para poder executar o projeto usando typescript.
+- `yarn init -y` serve para criar um arquivo .json do seu projeto.
+- `yarn add express` instala o framework express.(Ele ajuda na requisição, e rotas).
+- `npm install @types/express -D` Instala o Pacote de Dependencia do Express.
+- `yarn add typescript -D` Instala o a Dependencia do Typescript no Projeto, para funcionar o com node js
+- `yarn tsc --init` Cria um arquivo tsconfig.json.
+- `yarn add ts-node-dev -D` instala um dependencia, para poder executar o projeto usando typescript.
 
 ***
 ### Rota com Express
