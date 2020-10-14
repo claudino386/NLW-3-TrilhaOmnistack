@@ -1,5 +1,7 @@
 # NLW-3-TrilhaOmnistack
 ***
+![Ticket-NLW#3](https://github.com/miguelhp373/NLW-3-TrilhaOmnistack/blob/main/ticket-nlw%233.jpeg)
+***
 ### :bookmark_tabs: Anotações da NLW#3
 [Clique Aqui](https://github.com/miguelhp373/NLW-3-TrilhaOmnistack/blob/main/Comandos.md)
 ***
@@ -19,3 +21,9 @@
 ***
 ### App
 ![App](https://github.com/miguelhp373/NLW-3-TrilhaOmnistack/blob/main/Imagens%20do%20Projeto/app.png)
+***
+### Orfanato
+![Orfanato](https://github.com/miguelhp373/NLW-3-TrilhaOmnistack/blob/main/Imagens%20do%20Projeto/orphanage.png)
+***
+### Criar Orfanato
+![Criar](https://github.com/miguelhp373/NLW-3-TrilhaOmnistack/blob/main/Imagens%20do%20Projeto/create.png)
