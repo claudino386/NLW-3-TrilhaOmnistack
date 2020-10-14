@@ -15,7 +15,7 @@
 `npm start` ou `yarn start` Colocando isso no terminal do vscode, ele inicia o projeto no chrome.
 
 ***
-## Dia 01
+## Dia 01 - Criando o Website em ReactJs
 ***
 - Componentes são funções que retornão um JSX e um HTML.
 
@@ -91,7 +91,7 @@ export default Routes;
 ```
 
 ***
-## Dia 02 - API Rest
+## Dia 02 - Criando API Rest
 ***
 - `yarn init -y` serve para criar um arquivo .json do seu projeto.
 - `yarn add express` instala o framework express.(Ele ajuda na requisição, e rotas).
@@ -142,6 +142,8 @@ app.listen(3333); //local host 3333
 - `yarn typeorm migration:run` //executa a query
 - `yarn typeorm migration:revert` //reverte a tabela
 ***
+## Dia 03 Terminando o Website em ReactJs
+- Ligar o Backend no Frontend
 
 
 
