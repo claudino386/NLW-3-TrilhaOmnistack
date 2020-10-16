@@ -58,9 +58,9 @@
   - import './pasta';
 ***
 ## Instalações
-- `npm add react-icons` serve para adicionar o pacote de icones do react, basta digitar no terminal do vscode. [Link do Pacote](https://react-icons.github.io/)
+- `npm install react-icons` serve para adicionar o pacote de icones do react, basta digitar no terminal do vscode. [Link do Pacote](https://react-icons.github.io/)
 - `npm install` serve para adicionar o pacote node modules na pasta do projeto.
-- `npm add react-router-dom` serve para instalar um navegação sem dar refresh na página, página de navegação unica.[Link do Pacote](https://reactrouter.com/web/guides/quick-start)
+- `npm install react-router-dom` serve para instalar um navegação sem dar refresh na página, página de navegação unica.[Link do Pacote](https://reactrouter.com/web/guides/quick-start)
 - `npm install @types/react-router-dom -D` serve para instalar o react router dom no typescript.[Link do Pacote](https://www.npmjs.com/package/@types/react-router-dom)
 - `npm install @types/react-leaflet` serve para instalar a API de Mapa.[Link da API](https://react-leaflet.js.org/)
 
